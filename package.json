@@ -1,0 +1,38 @@
+{
+  "name": "alfred-pods",
+  "version": "1.0.0",
+  "description": "CocoaPods Alfred workflow",
+  "license": "MIT",
+  "repository": "nanoxd/alfred-pods",
+  "author": {
+    "name": "Fernando Paredes",
+    "email": "nano@fdp.io",
+    "url": "https://fdp.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    ""
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "ramda": "^0.24.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.19.1"
+  }
+}
