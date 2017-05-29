@@ -13,3 +13,17 @@ Object {
   "title": "Alamofire (4.4.0)",
 }
 `;
+
+exports[`Valid Results 1`] = `
+Object {
+  "arg": "https://github.com/Alamofire/Alamofire",
+  "icon": Object {
+    "path": " ",
+  },
+  "subtitle": "Elegant HTTP Networking in Swift",
+  "text": Object {
+    "copy": "pod 'Alamofire'",
+  },
+  "title": "Alamofire (4.4.0)",
+}
+`;
