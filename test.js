@@ -1,6 +1,5 @@
 import test from 'ava'
 import alfyTest from 'alfy-test'
-import { podStanza } from './index'
 
 test('Empty Results', async t => {
   const alfy = alfyTest()
@@ -24,9 +23,4 @@ test('Valid Results', async t => {
   const alamofire = result[0]
 
   t.snapshot(alamofire)
-})
-
-test('Pod Stanza', () => {
-  const pod = { id: 'Alamofire' }
-  t.deepEqual(podStanza(pod), `pod '${pod.id}'`)
 })
