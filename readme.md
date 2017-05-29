@@ -18,6 +18,8 @@ $ npm install -g alfred-pods
 
 In Alfred, type `pods`, <kbd>Enter</kbd>, and your query.
 
+Pressing Enter will open the CocoaPods page in your browser. If you'd like to go to the source code, you can press Option (⌥)+Enter.
+
 While over an item, you can ⌘c to copy `pod 'QUERY'` to your clipboard.
 
 

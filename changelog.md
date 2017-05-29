@@ -1,5 +1,8 @@
 ## Current
 
+* Open CocoaPod page by default
+* Open Repo when alt is pressed
+
 ## 1.0.1
 
 * Add screenshot to readme

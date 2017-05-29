@@ -13,11 +13,18 @@ const getPods = R.compose(
 )
 
 const podStanza = pod => `pod '${pod.id}'`
+const podPage = pod => `https://cocoapods.org/pods/${pod.id}`
 
 const mapToCell = pods => pods.map(pod => ({
   title: `${pod.id} (${pod.version})`,
   subtitle: pod.summary,
-  arg: pod.link,
+  arg: podPage(pod),
+  mods: {
+    alt: {
+      arg: pod.link,
+      subtitle: `Open Repo: ${pod.link}`
+    }
+  },
   text: {
     copy: podStanza(pod)
   }
