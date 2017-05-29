@@ -18,9 +18,6 @@ const mapToCell = pods => pods.map(pod => ({
   title: `${pod.id} (${pod.version})`,
   subtitle: pod.summary,
   arg: pod.link,
-  icon: {
-    path: ' '
-  },
   text: {
     copy: podStanza(pod)
   }
