@@ -16,7 +16,13 @@ Object {
 
 exports[`Valid Results 1`] = `
 Object {
-  "arg": "https://github.com/Alamofire/Alamofire",
+  "arg": "https://cocoapods.org/pods/Alamofire",
+  "mods": Object {
+    "alt": Object {
+      "arg": "https://github.com/Alamofire/Alamofire",
+      "subtitle": "Open Repo: https://github.com/Alamofire/Alamofire",
+    },
+  },
   "subtitle": "Elegant HTTP Networking in Swift",
   "text": Object {
     "copy": "pod 'Alamofire'",
