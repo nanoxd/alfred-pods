@@ -1,7 +1,9 @@
 ## Current
 
+## 1.0.1
+
 * Add screenshot to readme
-* Add additional keywords
+* Add keywords to package
 
 ## 1.0.0
 
