@@ -1,6 +1,6 @@
 {
   "name": "alfred-pods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CocoaPods Alfred workflow",
   "license": "MIT",
   "repository": "nanoxd/alfred-pods",
