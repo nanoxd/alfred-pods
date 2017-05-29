@@ -25,7 +25,11 @@
   "keywords": [
     "alfred",
     "workflow",
-    ""
+    "cocoapods",
+    "ios",
+    "mac",
+    "watchOS",
+    "tvOS"
   ],
   "dependencies": {
     "alfy": "^0.6.0",

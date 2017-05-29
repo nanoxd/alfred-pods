@@ -1,6 +1,7 @@
 ## Current
 
 * Add screenshot to readme
+* Add additional keywords
 
 ## 1.0.0
 
