@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[anonymous] 1`] = `
+Object {
+  "arg": "https://github.com/Alamofire/Alamofire",
+  "icon": Object {
+    "path": " ",
+  },
+  "subtitle": "Elegant HTTP Networking in Swift",
+  "text": Object {
+    "copy": "pod 'Alamofire'",
+  },
+  "title": "Alamofire (4.4.0)",
+}
+`;

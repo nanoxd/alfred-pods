@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>pods</string>
 	<key>bundleid</key>
 	<string>io.fdp.alfred-pods</string>
 	<key>category</key>
@@ -26,27 +24,10 @@
 	</dict>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>pods</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>8EA7AD45-4781-4A5B-886C-CC6A4E258D8A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -90,24 +71,43 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8EA7AD45-4781-4A5B-886C-CC6A4E258D8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>8EA7AD45-4781-4A5B-886C-CC6A4E258D8A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>150</integer>
-			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
 		<key>160238A8-1969-4BC7-BAFA-E1E33E9F84BD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>170</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>330</integer>
+		</dict>
+		<key>8EA7AD45-4781-4A5B-886C-CC6A4E258D8A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>330</integer>
 		</dict>
 	</dict>
 </dict>
