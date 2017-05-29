@@ -1,5 +1,7 @@
 ## Current
 
+## 1.1.0
+
 * Open CocoaPod page by default
 * Open Repo when alt is pressed
 
