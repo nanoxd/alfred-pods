@@ -14,7 +14,7 @@ $ npm install -g alfred-pods
 
 ## Usage
 
-In Alfred, type `pods`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `pods`, <kbd>Enter</kbd>, and your query. While over an item, you can ⌘c to copy `pod 'QUERY'` to your clipboard.
 
 
 ## License
